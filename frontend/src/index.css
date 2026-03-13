@@ -5,21 +5,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/*
-  #30364F
-  #ACBAC4
-  #E1D9BC
-  #F0F0DB
-*/
-
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #F0F0DB;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -53,35 +42,6 @@
   --sidebar-accent-foreground: #30364F;
   --sidebar-border: #ACBAC4;
   --sidebar-ring: #30364F;
-}
-
-.dark {
-  --background: #30364F;
-  --foreground: #F0F0DB;
-  --card: #252a3d;
-  --card-foreground: #F0F0DB;
-  --popover: #252a3d;
-  --popover-foreground: #F0F0DB;
-  --primary: #E1D9BC;
-  --primary-foreground: #30364F;
-  --secondary: #4a5477;
-  --secondary-foreground: #F0F0DB;
-  --muted: #4a5477;
-  --muted-foreground: #ACBAC4;
-  --accent: #4a5477;
-  --accent-foreground: #F0F0DB;
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: #4a5477;
-  --input: #4a5477;
-  --ring: #E1D9BC;
-  --sidebar: #252a3d;
-  --sidebar-foreground: #F0F0DB;
-  --sidebar-primary: #E1D9BC;
-  --sidebar-primary-foreground: #30364F;
-  --sidebar-accent: #4a5477;
-  --sidebar-accent-foreground: #F0F0DB;
-  --sidebar-border: #4a5477;
-  --sidebar-ring: #E1D9BC;
 }
 
 @theme inline {
@@ -120,10 +80,6 @@
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
 }
-
-/*
-  ---break---
-*/
 
 @layer base {
   * {
