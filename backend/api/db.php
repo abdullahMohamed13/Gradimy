@@ -6,10 +6,10 @@ header("Access-Control-Allow-Origin: *");
 // $password = "";
 // $dbname = "grademe";
 
-$host = "DB_HOST";
-$user = "DB_USER";
-$password = "DB_PASS";
-$dbname = "DB_NAME";
+$host = getenv("DB_HOST");
+$user = getenv("DB_USER");
+$password = getenv("DB_PASS");
+$dbname = getenv("DB_NAME");
 
 $conn = new mysqli($host, $user, $password, $dbname, 59142);
 
