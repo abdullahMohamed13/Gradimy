@@ -1,6 +1,6 @@
 FROM php:8.2-apache
 
-COPY api/ /var/www/html/
+COPY backend/api/ /var/www/html/
 
 RUN a2enmod rewrite
 
