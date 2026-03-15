@@ -2,6 +2,8 @@
 
 Gradimy is a modern CRUD application designed for university students to manage and track graduation projects.
 
+Team members: @mostafa-43, @mooaaz-shaabaan
+
 ## 🚀 Live Links
 
 - **Frontend:** [gradimy.netlify.app](https://gradimy.netlify.app)
@@ -20,19 +22,17 @@ Gradimy is a modern CRUD application designed for university students to manage 
 - **Premium Notifications:** Integrated with **Sonner** for beautiful, interactive toasts and non-intrusive confirmations.
 - **Responsive Design:** Optimized for both desktop and mobile viewing.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework:** React 19 + TypeScript
 - **Build Tool:** Vite
 - **Styling:** Tailwind CSS 4
-- **Icons:** Lucide React
-- **Notifications:** Sonner
 
 ### Backend
 - **Language:** PHP 8.2
 - **Database:** MySQL
-- **Deployment:** Render (Dockerized Apache)
+- **Deployment:** Render (using Docker)
 
 ## 📂 Project Structure
 
